@@ -1,0 +1,14 @@
+/build-constants.go
+**/*.swp
+cover.out
+*~
+minio-xl
+!*/
+site/
+**/*.test
+**/*.sublime-workspace
+/.idea/
+/Minio.iml
+**/access.log
+build
+isa-l
