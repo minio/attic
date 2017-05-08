@@ -1,0 +1,30 @@
+sudo: false
+language: go
+
+os:
+- linux
+- osx
+
+env:
+- ARCH=x84_64
+- ARCH=i686
+
+go:
+- 1.6.3
+
+before_script:
+- go get -u github.com/golang/lint/golint && echo "Installed golint:"
+- go get -u github.com/fzipp/gocyclo && echo "Installed gocyclo:"
+- go get -u github.com/remyoudompheng/go-misc/deadcode && echo "Installed deadcode:"
+- go get -u github.com/client9/misspell/cmd/misspell && echo "Installed misspell:"
+
+script:
+- diff -au <(gofmt -d .) <(printf "")
+- deadcode cmd
+- gocyclo -over 32 cmd
+- misspell cmd/*
+- go vet ./...
+- golint ./...
+- go build
+- ./s3verify --version
+- ./s3verify --help
