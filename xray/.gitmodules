@@ -1,0 +1,4 @@
+[submodule "simd"]
+	path = simd
+	url = https://github.com/minio/simd
+	branch = master

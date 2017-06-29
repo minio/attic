@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (c) 2017 Minio, Inc. <https://www.minio.io>
+  ~
+  ~ This file is part of Alice.
+  ~
+  ~ Alice is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program. If not, see <http://www.gnu.org/licenses/>.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">Alice</string>
+    <string name="xray_broadcast">XRayCast</string>
+    <string name="COMPLETE">Complete</string>
+    <string name="switch_camera">Switch</string>
+    <string name="zoom">Zoom</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to camera,microphone and location is needed for face detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="no_video_permission">This application cannot run because it does not have camera,audio and location permissions.  The application will now exit.</string>
+</resources>

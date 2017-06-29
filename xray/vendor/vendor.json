@@ -1,0 +1,85 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "2avCvSn0XonfApKKuTMyiQmk7s0=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "3ec0642a7fb6488f65b06f9040adc67e3990296a",
+			"revisionTime": "2016-08-29T20:23:21Z"
+		},
+		{
+			"checksumSHA1": "iIUYZyoanCQQTUaWsu8b+iOSPt4=",
+			"path": "github.com/gorilla/context",
+			"revision": "aed02d124ae4a0e94fea4541c8effd05bf0c8296",
+			"revisionTime": "2016-05-25T20:33:19Z"
+		},
+		{
+			"checksumSHA1": "ntQtwxnIbkwPoh6uQYZ4j8PcaVk=",
+			"path": "github.com/gorilla/mux",
+			"revision": "a49d62f618e6dc4a7a7d1f0ad69744a158c21f23",
+			"revisionTime": "2016-07-27T01:54:17Z"
+		},
+		{
+			"checksumSHA1": "izugIDe3XD8nvMuNicC1VUvjPgE=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "bb547c6c5c59732c29a3266d7125a84f6c3fce32",
+			"revisionTime": "2017-01-15T21:09:21Z"
+		},
+		{
+			"checksumSHA1": "L7vCR+T24+agfG7QQ2848/vMUOE=",
+			"path": "github.com/hashicorp/go-version",
+			"revision": "deeb027c13a95d56c7585df3fe29207208c6706e",
+			"revisionTime": "2016-07-25T21:20:58Z"
+		},
+		{
+			"checksumSHA1": "fUWokilZyc1QDKnIgCDJE8n1S9U=",
+			"path": "github.com/minio/cli",
+			"revision": "b8ae5507c0ceceecc22d5dbd386b58fbd4fdce72",
+			"revisionTime": "2017-02-27T07:32:28Z"
+		},
+		{
+			"checksumSHA1": "vzwMDikjEuZn3TmUl2FBZH72v3A=",
+			"path": "github.com/minio/go-cv",
+			"revision": "5a48d1d00d4bbbc5464ecf325dd9deb77ce07928",
+			"revisionTime": "2017-03-02T09:59:00Z"
+		},
+		{
+			"checksumSHA1": "xb2RRXn7ojmJEIWmzVIGfeJVrZo=",
+			"path": "github.com/minio/minio-go",
+			"revision": "cfd85be656dee3770014787993ff46d915fa3e8e",
+			"revisionTime": "2017-03-19T01:33:31Z"
+		},
+		{
+			"checksumSHA1": "neH34/65OXeKHM/MlV8MbhcdFBc=",
+			"path": "github.com/minio/minio-go/pkg/policy",
+			"revision": "e8b302cd9d3a4b0d97065586415a16a24a98cc85",
+			"revisionTime": "2017-02-20T08:11:51Z"
+		},
+		{
+			"checksumSHA1": "RUaRyhYewukJ0NXO9/zvZb1RZrY=",
+			"path": "github.com/minio/minio-go/pkg/s3signer",
+			"revision": "e8b302cd9d3a4b0d97065586415a16a24a98cc85",
+			"revisionTime": "2017-02-20T08:11:51Z"
+		},
+		{
+			"checksumSHA1": "xdwBu3i8uIRlPG01zjyy1myJtLA=",
+			"path": "github.com/minio/minio-go/pkg/s3utils",
+			"revision": "e8b302cd9d3a4b0d97065586415a16a24a98cc85",
+			"revisionTime": "2017-02-20T08:11:51Z"
+		},
+		{
+			"checksumSHA1": "maUy+dbN6VfTTnfErrAW2lLit1w=",
+			"path": "github.com/minio/minio-go/pkg/set",
+			"revision": "e8b302cd9d3a4b0d97065586415a16a24a98cc85",
+			"revisionTime": "2017-02-20T08:11:51Z"
+		},
+		{
+			"checksumSHA1": "uTQtOqR0ePMMcvuvAIksiIZxhqU=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "7a6e5648d140666db5d920909e082ca00a87ba2c",
+			"revisionTime": "2017-02-01T04:15:14Z"
+		}
+	],
+	"rootPath": "github.com/minio/xray"
+}
